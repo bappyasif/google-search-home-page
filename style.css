@@ -1,0 +1,297 @@
+header a:hover{
+    text-decoration: underline;
+    text-shadow: rgb(129, 214, 18);
+}
+
+header a {
+    color: grey;
+    padding: 11px;
+    text-decoration: none;
+}
+
+/* .page-wrapper{
+    display: flex;
+    flex-direction: column;
+} */
+
+.nav-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-top img {
+    margin-right: 29px;
+
+}
+
+.search-area {
+    border: 1.1px solid grey;
+    border-radius: 20px;
+    /* display: inline-block; */
+    line-height: 20px;
+    min-width: 650px;
+    padding: 3.8px;
+    /* margin-right: 11px;
+    margin-bottom: 11px; */
+}
+
+.search-area:hover {
+    box-shadow: 0 1px 6px 0 rgb(7, 238, 130);
+}
+
+.search-area i {
+    height: 20px;
+    line-height: 29px;
+    margin-left: 8px;
+    margin-right: 11px;
+    width: 20px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border: 0;
+    width: 65%;
+}
+
+input:focus {
+    outline: 0px;
+}
+
+.nav-account {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 11px;
+}
+
+.dot-menu:hover {
+    background: lightgrey;
+    border-radius: 56%;
+}
+
+.sign-in{
+    color: white;
+    background: yellowgreen;
+    margin-left: 11px;
+    /* padding-left: 11px; */
+    /* align-content: center; */
+    height: 20px;
+    border-radius: 2px;
+}
+
+header {
+    background: ivory;
+    border-bottom: 1.1px solid grey;
+    height: 65px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    margin-bottom: 11px;
+}
+
+header img {
+    min-width: 29px;
+}
+
+.search-menu {
+    margin-top: 11px;
+    margin-left: 110px;
+    min-width: 650px;
+    width: 50%;
+    display: flex;
+    font-size: 11px;
+}
+
+.menu-options {
+    margin-right: 47px;
+}
+
+.search-menu a:hover {
+    background: lightsteelblue;
+    border-radius: 56px;
+}
+
+.menu-account {
+    /* float: right; */
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+section {
+    margin-top: 56px;
+}
+
+.search-result-container {
+    margin-left: 92px;
+    min-width: 560px;
+    padding-top: 11px;
+    width: 56%;
+}
+
+.search-result-container span {
+    color: grey;
+    font-size: 11px;
+}
+
+.result-container {
+    margin: 20px 0;
+}
+
+.result-container a {
+    display: block;
+}
+
+.result-title {
+    font-size: 1.1em;
+    line-height: 1.1em;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.result-title:hover {
+    text-decoration: underline;
+}
+
+.result-link {
+    color: darkgoldenrod;
+    line-height: .65em;
+    font-size: .65em;
+}
+
+.result-container p {
+    font-size: .74em;
+    line-height: 1.12em;
+}
+
+.result-container i {
+    margin: 0 7px;
+}
+
+.ad-container {
+    display: flex;
+    /* flex: 0 100 auto; */
+    margin: 11px 38px;
+    border: 2px solid gainsboro;
+}
+
+table {
+    margin-bottom: 11px;
+    width: 100%;
+    border: 1.1px solid grey;
+    border-bottom: none;
+    border-radius: 2px;
+    /* line-height: 11px; */
+    /* height: 11px; */
+    font-size: 0.56em;
+    margin-bottom: 11px;
+}
+
+tr {
+    line-height: 2px;
+}
+
+td {
+    border-bottom: 1.1px solid grey;
+    /* line-height: 11px; */
+    /* border-radius: 2px; */
+}
+
+td h3 {
+    font-weight: 400;
+    color: black;
+}
+
+.table-footer {
+    float: right;
+    margin-bottom: 11px;
+}
+
+
+.related-searches h2 {
+    margin-bottom: 20px;
+}
+
+.related-searches strong {
+    font-weight: 800;
+}
+
+.related-searches p {
+    color: rgb(43, 37, 37);
+    margin: 20px 0;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    margin: 29px;
+    flex-direction: row;
+}
+
+.page-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-next {
+    /* padding-top: 29px; */
+    /* align-self: stretch; */
+    margin-left: 11px;
+}
+
+.page-next i {
+    font-size: 1.1em;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 11px;
+}
+
+.page-container a {
+    text-decoration: none;
+}
+
+.page-container a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: rgb(54, 54, 54);
+    color: grey;
+    border-top: 1.1px solid grey;
+    padding-bottom: 11px;
+}
+
+.footer-container {
+    margin-left: 110px;
+    padding: 11px;
+    min-width: 470px;
+    width: 56%;
+}
+
+footer ul {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer li {
+    padding-right: 20px;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: grey;
+}
+
+footer a:hover {
+    color: greenyellow;
+}
+
+footer strong {
+    color: grey;
+    font-weight: 740;
+}
